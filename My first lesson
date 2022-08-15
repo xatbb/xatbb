@@ -1,0 +1,10 @@
+string sda = "Hello, World!";
+Console.WriteLine(sda);
+sda = sda.Replace("Hello", "Greeting");
+Console.WriteLine(sda);
+Console.WriteLine($"fraza {sda} imeet {sda.Length} simvolov");
+Console.WriteLine(sda.ToUpper());
+Console.WriteLine(sda.Contains("Hello"));
+Console.WriteLine(sda.Contains("Greeting"));
+Console.WriteLine(sda.StartsWith ("Greeting"));
+Console.WriteLine(sda.EndsWith ("!"));
